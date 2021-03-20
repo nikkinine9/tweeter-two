@@ -1,0 +1,59 @@
+.HomeFeed__container {
+    flex: 0.6;
+    border: 2px solid black;
+    /* text-align: center; */
+}
+
+.Feeds__content {
+    display: flex;
+    margin-top: 1em;
+    background-color: aliceblue;
+    padding: 1em;
+}
+
+.Tweet {
+    margin-left: 0.8em;
+}
+
+.user {
+    display: flex;
+}
+
+.user__tag {
+    color: lightgrey;
+    margin-left: 0.8em;
+}
+
+.Tweet>img {
+    margin-top: 1.5em;
+}
+
+.Tweet__icons {
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    margin-top: 1em;
+}
+
+.likes,
+.comments {
+    display: flex;
+    align-items: center;
+    color: blue;
+}
+
+.likes:hover {
+    color: #e71c23;
+}
+
+.comments:hover {
+    color: #0A79DF;
+}
+
+.download:hover {
+    color: #45CB30;
+}
+
+.retweet:hover {
+    color: #BB2CD9;
+}
